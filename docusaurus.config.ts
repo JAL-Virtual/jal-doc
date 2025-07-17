@@ -45,8 +45,7 @@ const config: Config = {
       style: 'dark',
       logo: {
         alt: 'JAL Virtual Logo',
-        src: 'img/docusauruswhite.png',      // Used in light mode
-        srcDark: 'img/docusauruswhite.png',  // Used in dark mode
+        src: 'img/docusaurus.png',    
         href: '/',
       },
       items: [
