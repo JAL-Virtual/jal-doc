@@ -1,0 +1,178 @@
+/*** JAL Virtual Docs Theme ***/
+
+/* 1. Ensure Poppins everywhere */
+.docMainContainer,
+.docMainContainer h1,
+.docMainContainer h2,
+.docMainContainer p,
+.docMainContainer li {
+  font-family: 'Poppins', sans-serif;
+  color: var(--jal-black);
+}
+[data-theme='dark'] .docMainContainer,
+[data-theme='dark'] .docMainContainer h1,
+[data-theme='dark'] .docMainContainer h2,
+[data-theme='dark'] .docMainContainer p,
+[data-theme='dark'] .docMainContainer li {
+  color: var(--jal-white);
+}
+
+/* 2. Headings in JAL‑red */
+:root {
+  --jal-red: #b60c18;
+  --jal-black: #1a1a1a;
+  --jal-white: #fafafa;
+  --jal-sakura: #ff647b;
+}
+[data-theme='dark'] {
+  --jal-red: #ff647b;    /* Sakura Pink for dark mode */
+  --jal-black: #fafafa;
+  --jal-white: #fafafa;
+}
+
+.docMainContainer h1,
+.docMainContainer h2 {
+  color: var(--jal-red);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.docMainContainer h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.docMainContainer h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+/* 3. Paragraph spacing */
+.docMainContainer p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+/* 4. Danger admonition in JAL‑red */
+.admonition--danger {
+  border-left: 4px solid var(--jal-red) !important;
+  background-color: rgba(182, 12, 24, 0.1) !important;
+}
+[data-theme='dark'] .admonition--danger {
+  background-color: rgba(255, 100, 123, 0.12) !important;
+}
+.admonition--danger .admonitionHeading {
+  color: var(--jal-red) !important;
+  font-weight: 600;
+}
+
+/* 5. Quick‑Links & TOC cards */
+.quick-links {
+  margin: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.25rem;
+}
+.quick-card {
+  background: var(--ifm-color-emphasis-0);
+  border: 1px solid var(--ifm-color-border);
+  border-radius: 8px;
+  padding: 1.25rem;
+  text-decoration: none;
+  transition: background 0.2s, border-color 0.2s, transform 0.2s;
+}
+[data-theme='dark'] .quick-card {
+  background: #23232b;
+  border: 1px solid #363646;
+}
+.quick-card:hover {
+  background: var(--ifm-color-emphasis-1);
+  border-color: var(--jal-red);
+  transform: translateY(-2px);
+}
+[data-theme='dark'] .quick-card:hover {
+  background: rgba(255, 100, 123, 0.10);
+}
+
+/* Quick card headings */
+.quick-card h3 {
+  margin: 0.75rem 0 0.5rem;
+  font-size: 1.25rem;
+  color: var(--jal-red);
+}
+.quick-card p {
+  margin: 0;
+  color: var(--ifm-font-color-secondary);
+  font-size: 0.95rem;
+}
+[data-theme='dark'] .quick-card p {
+  color: #dad8e0;
+}
+
+/* 6. Link icons */
+.quick-card svg {
+  color: var(--jal-red);
+  opacity: 0.9;
+}
+
+/* 7. Version badge styling */
+.docMainContainer h1 > small {
+  font-size: 0.6em;
+  vertical-align: middle;
+  margin-left: 0.5rem;
+  color: var(--ifm-font-color-secondary);
+}
+
+/* 8. Dark blockquotes (for emphasis) */
+.docMainContainer blockquote {
+  border-left: 4px solid var(--jal-red);
+  background: rgba(182, 12, 24, 0.05);
+  padding: 0.75rem 1rem;
+  margin: 1rem 0;
+}
+[data-theme='dark'] .docMainContainer blockquote {
+  background: rgba(255, 100, 123, 0.09);
+}
+
+/* 9. Code blocks accent */
+.docMainContainer pre[class*='language-'] {
+  border: 1px solid var(--jal-red);
+  background: #18181b;
+}
+[data-theme='dark'] .docMainContainer pre[class*='language-'] {
+  border: 1px solid var(--jal-red);
+  background: #131318;
+}
+
+/* Sidebar icons & hover */
+.sidebar-item-with-icon {
+  display: inline-flex;
+  align-items: center;
+}
+.sidebar-item-with-icon svg {
+  margin-right: 0.5em;
+}
+.theme-doc-sidebar-item {
+  transition: background 0.2s;
+}
+.theme-doc-sidebar-item:hover > a {
+  background-color: rgba(182, 12, 24, 0.1); /* light JAL‑red hover */
+}
+[data-theme='dark'] .theme-doc-sidebar-item:hover > a {
+  background-color: rgba(255, 100, 123, 0.10);
+}
+
+/* icon + label alignment */
+.sidebar-item-with-icon {
+  display: inline-flex;
+  align-items: center;
+}
+.sidebar-item-with-icon svg {
+  margin-right: 0.5em;
+}
+
+/* hover tint for the entire sidebar link */
+.theme-doc-sidebar-item:hover > a {
+  background-color: rgba(182, 12, 24, 0.1);
+}
+[data-theme='dark'] .theme-doc-sidebar-item:hover > a {
+  background-color: rgba(255, 100, 123, 0.10);
+}
