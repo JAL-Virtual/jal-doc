@@ -5,69 +5,104 @@ sidebar_label: VSOP
 sidebar_position: 1
 ---
 
-# Virtual Standard Operating Procedures (VSOP)
-
-## Membership Standards
-
-1. **Age Requirement**: Members must be at least **16 years of age** at the time of registration.
-2. **Account Credentials**: The login credentials provided to you are for your individual use only. You may not provide, seek, or obtain permission to use your own or another individual’s credentials for JAL Virtual operations.
-3. **Full Name**: Members are required to use their **full legal name** when registering as a pilot. Incomplete, incorrect, or misleading information will result in account termination.
-4. **Single Account**: Members may only register for and hold **one account**.
-5. **Email Address**: All members must provide a **valid email address**. If your email address changes, you must update it using the online form. Accounts with invalid emails will be removed.
-6. **Password Assistance**: If you forget your password, email the Human Resources Manager for a new temporary password. Change your password through the Pilot Dispatch after login.
+# 📕 Virtual Standard Operating Procedures (VSOP)
 
 ---
 
-Japan Airlines Virtual operates according to official **Bylaws** and a **Code of Conduct**, which govern member behavior and the structure of the virtual airline. These documents are reviewed and updated by the administration team as needed, with all major updates announced via Discord.
+## 👤 Membership Standards
 
-**Key Excerpts from the Code of Conduct and Bylaws:**
+1. **Age Requirement**:  
+   - Members must be at least **16 years old** at the time of registration.
 
-- _Code of Conduct_:  
-  “In the interest of fostering an open and welcoming environment, the administration team pledges to make participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.”
+2. **Account Credentials**:  
+   - Your login credentials are **personal and confidential**.  
+   - **Never share** your account or use another person's credentials.
 
-- _Code of Conduct_:  
-  “Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the administration team at [Insert Email] or via Discord direct message.”
+3. **Full Name Policy**:  
+   - Register with your **full legal name**.  
+   - Incomplete, incorrect, or misleading information = **account termination**.
 
-- _Bylaws_:  
-  “Membership is open to any adult or minor above the age of 18 by either invitation or by application. Membership is fully voluntary. Membership is at the sole discretion of the Japan Virtual administration team. All members are expected to follow whatever posted rules, codes of conduct, and/or community guidelines are found on the JALV website, as well as on VATSIM, IVAO, and PilotEdge platforms.”
+4. **Single Account**:  
+   - Each member is allowed **one account only**.
 
----
+5. **Email Address**:  
+   - Provide a **valid email address** at registration.  
+   - Update your email if it changes.  
+   - Accounts with invalid emails may be **removed**.
 
-## Discord Community
-
-Japan Airlines Virtual maintains a Discord server, which is the most important resource for keeping up to date with events, JALV news, and for engaging with our community.  
-Membership in the Discord is not required, but **strongly encouraged**. The invite link can be found in the smartCars 3 App.
-
----
-
-## Transfer Hours
-
-JAL Virtual accepts **transfer hours** from previous virtual airline experience, up to a maximum of **15 hours**.  
-A valid verification link must be provided at the time of application.
+6. **Password Assistance**:  
+   - If you forget your password, contact the Human Resources Manager for a temporary reset.
+   - Change your password promptly after login through the Pilot Dispatch system.
 
 ---
 
-## Leave of Absence (LOA)
-
-Pilots who cannot remain active for an extended period may file a **Leave of Absence (LOA)** with Human Resources.  
-An LOA “freezes” your account, preventing removal for inactivity. To file an LOA, contact the Human Resources Manager.
-
----
-
-## Suspension
-
-Pilots who violate JAL Virtual policies may face disciplinary action.  
-Depending on the severity, management reserves the right to **suspend** the pilot for a specified period.  
-During suspension, access to all JAL Virtual systems and services will be restricted. Attempting to bypass restrictions may result in further consequences.
+:::info
+**Governing Documents**  
+JAL Virtual is governed by our [Code of Conduct](/docs/code-of-conduct) and official **Bylaws**.  
+These are reviewed regularly, with all major updates announced via Discord.
+:::
 
 ---
 
-## Resignation
+## 📜 Key Excerpts
 
-Pilots who wish to resign must notify the Human Resources Manager.  
-If a pilot leaves on good terms (follows procedures and notifies us), their account will remain in our database should they wish to return.  
-To return, simply notify the Human Resources Manager to have your account reactivated.
+- **Code of Conduct:**  
+  > “In the interest of fostering an open and welcoming environment, the administration team pledges to make participation in our project and our community a harassment-free experience for everyone…”
+
+- **Reporting Violations:**  
+  > “Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the administration team at [Insert Email] or via Discord DM.”
+
+- **Bylaws:**  
+  > “Membership is open to any adult or minor above the age of 18 by either invitation or by application. Membership is fully voluntary and at the sole discretion of the JAL Virtual administration team. All members must follow rules and guidelines posted on the JALV website and aviation networks such as VATSIM, IVAO, and PilotEdge.”
 
 ---
 
-If you have any questions about these procedures or need further clarification, please contact the JAL Virtual administration team.
+## 💬 Discord Community
+
+- The **Discord server** is the primary hub for events, news, and community engagement.
+- Membership is **strongly encouraged** (but not required).
+- Find the invite link in the smartCars 3 App.
+
+---
+
+## ⏱️ Transfer Hours
+
+- JAL Virtual **accepts transfer hours** from previous virtual airline experience—**up to 15 hours** maximum.
+- You must provide a **valid verification link** when applying.
+
+---
+
+## 📅 Leave of Absence (LOA)
+
+- If you need to be inactive for an extended period, file a **Leave of Absence (LOA)** by contacting Human Resources.
+- An LOA “freezes” your account and prevents removal for inactivity.
+- To return, notify Human Resources to reactivate your account.
+
+---
+
+## 🚫 Suspension
+
+- Pilots who violate policies may be **suspended** for a set period.
+- While suspended, you **cannot access JAL Virtual systems or services**.
+- **Bypassing restrictions** during suspension may result in permanent removal.
+
+---
+
+## 👋 Resignation
+
+- To resign, **notify the Human Resources Manager**.
+- If you leave in good standing, your account stays in our database for possible future return.
+- To return, simply request reactivation from Human Resources.
+
+---
+
+## 📣 Questions or Clarifications?
+
+If you have any questions about these procedures, or need clarification, please contact the JAL Virtual administration team via Discord or email.
+
+---
+
+:::tip
+**Stay informed!**  
+Always review the latest VSOP, Code of Conduct, and event announcements on Discord to keep your membership in good standing.
+:::

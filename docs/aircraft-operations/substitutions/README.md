@@ -7,23 +7,54 @@ sidebar_position: 1
 
 # Aircraft Substitutions
 
-- Aircraft substitutions are **not permitted** without prior management approval.
-- As all fleet types are available, substitutions should **not be necessary**.
-- In rare cases, substitutions may be permitted due to simulator limitations, but **only with advance approval**.
+:::caution
+**Aircraft substitutions are strictly regulated!**  
+Do **not** substitute aircraft without management approval.  
+:::
+
+## 🚫 General Policy
+
+- **No substitutions permitted** without prior management approval.
+- All fleet types are available—**substitutions should rarely be needed**.
+- Exceptions may be granted for simulator limitations, but **advance approval is required**.
 
 ---
 
-## Substitution Policy Details
+## ✈️ Substitution Categories
 
-Aircraft substitution is only acceptable **within the JAL GROUP Itinerary** and within the **same category**:
+Aircraft substitutions are **only allowed within the JAL GROUP itinerary and within the same aircraft category**:
 
-- **Light:** DH8D, AT76, EMB190  
-- **Medium:** B738, A320, A20N  
-- **Heavy:** B763, B77W, B788, B789, A359, A35K  
-- **Classic:** MD-11, B722, DC-3, B772, B742-4, DC-6, BN2P  
-
-If you must make an aircraft substitution, a comment **must** be included when filing your PIREP, explaining the reason for the substitution.
+| **Category** | **Permitted Aircraft**                                  |
+|:------------:|:-------------------------------------------------------|
+| **Light**    | DH8D, AT76, EMB190                                     |
+| **Medium**   | B738, A320, A20N                                       |
+| **Heavy**    | B763, B77W, B788, B789, A359, A35K                     |
+| **Classic**  | MD-11, B722, DC-3, B772, B742-4, DC-6, BN2P            |
 
 ---
 
-*Always check with management if you are unsure about aircraft substitution rules or require an exception.*
+## 📝 Substitution Approval Process
+
+1. **Contact management** in advance with your substitution request.
+2. Clearly state your **reason** (e.g., simulator limitation, technical problem).
+3. Wait for **written approval** before flying.
+4. If a substitution is approved, you **must** include a comment in your PIREP, explaining the reason.
+
+---
+
+## ✅ Example Scenarios
+
+- **Allowed:**  
+  - Swapping B738 for A320 due to a temporary simulator issue (with management approval).
+  - Using EMB190 instead of DH8D on the same booked route, with approval.
+
+- **Not Allowed:**  
+  - Flying a Heavy (B789) when booked for a Medium (A320) without approval.
+  - Switching categories (e.g., Classic to Medium) without permission.
+
+---
+
+## ℹ️ Reminder
+
+If you are **unsure** about the substitution rules or need an exception, **always check with management first** before making any changes.
+
