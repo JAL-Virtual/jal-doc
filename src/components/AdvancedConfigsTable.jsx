@@ -197,33 +197,32 @@ export default function AdvancedConfigsTable() {
           />
         </div>
       </div>
-      <div className="scroll-x">
-        <table className="jal-config-table-compact">
-          <thead>
-            <tr>
+      {/* TABLE, no scroll-x wrapper */}
+      <table className="jal-config-table-compact">
+        <thead>
+          <tr>
+            {CONFIG_COLUMNS.map(col => (
+              <th key={col.key}>{col.label}</th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {configs.map((row, i) => (
+            <tr key={row.reg} className={i % 2 ? "jal-row-alt" : ""}>
               {CONFIG_COLUMNS.map(col => (
-                <th key={col.key}>{col.label}</th>
+                <td
+                  key={col.key}
+                  className={col.key !== "reg" && col.key !== "type" && col.key !== "standby" ? "icon-hover" : ""}
+                >
+                  {col.key === "reg" || col.key === "type" || col.key === "standby"
+                    ? row[col.key]
+                    : <CheckIcon active={row[col.key]} />}
+                </td>
               ))}
             </tr>
-          </thead>
-          <tbody>
-            {configs.map((row, i) => (
-              <tr key={row.reg} className={i % 2 ? "jal-row-alt" : ""}>
-                {CONFIG_COLUMNS.map(col => (
-                  <td
-                    key={col.key}
-                    className={col.key !== "reg" && col.key !== "type" && col.key !== "standby" ? "icon-hover" : ""}
-                  >
-                    {col.key === "reg" || col.key === "type" || col.key === "standby"
-                      ? row[col.key]
-                      : <CheckIcon active={row[col.key]} />}
-                  </td>
-                ))}
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
+          ))}
+        </tbody>
+      </table>
       <style>{`
         .jal-fullpage-table-compact {
           background: #18181b !important;
