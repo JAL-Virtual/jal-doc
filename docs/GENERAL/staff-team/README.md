@@ -5,6 +5,6 @@ sidebar_label: Staff Teams
 sidebar_position: 1
 ---
 
-# VSOP
+# Staff Team
 
 *(Under construction)*
