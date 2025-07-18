@@ -38,7 +38,7 @@ sidebar_position: 1
 
 :::info
 **Governing Documents**  
-JAL Virtual is governed by our [Code of Conduct](/docs/code-of-conduct) and official **Bylaws**.  
+JAL Virtual is governed by our Code of Conduct and official **Bylaws**.
 These are reviewed regularly, with all major updates announced via Discord.
 :::
 

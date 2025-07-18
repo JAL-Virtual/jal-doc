@@ -28,7 +28,7 @@ const links = [
   { title: 'Simulation Settings', icon: '💻', href: '/docs/simulation-parameters/simulation-settings' },
   { title: 'Changelog', icon: '🗒️', href: '/docs/updates/changelog' },
   { title: 'Route Updates', icon: '🛣️', href: '/docs/updates/route-updates' },
-  { title: 'Code of Conduct', icon: '🗒️', href: '/docs//general/code-of-conduct'}
+  { title: 'Code of Conduct', icon: '🗒️', href: '/docs/general/code-of-conduct'}
 ];
 
 function HomepageHeader() {

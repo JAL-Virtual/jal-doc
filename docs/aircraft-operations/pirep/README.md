@@ -78,7 +78,7 @@ If less than 75% of the flight was completed, unfortunately your PIREP cannot be
 
 <details>
 <summary><strong>Can I change my aircraft after booking?</strong></summary>
-No. You must fly the same aircraft type that you booked. See the [Substitutions](/docs/substitutions) page for possible exceptions.
+No. You must fly the same aircraft type that you booked. See the "Substitutions" page for possible exceptions.
 </details>
 
 <details>
