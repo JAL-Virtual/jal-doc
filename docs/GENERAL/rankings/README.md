@@ -1,7 +1,7 @@
 ---
-id: rankings
-title: rankings
-sidebar_label: rankings
+id: Rankings
+title: Rankings
+sidebar_label: Rankings
 sidebar_position: 1
 ---
 
