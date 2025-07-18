@@ -7,4 +7,6 @@ sidebar_position: 1
 
 # configurations
 
-*(Under construction)*
+import AdvancedConfigsTable from '@site/src/components/AdvancedConfigsTable';
+
+<AdvancedConfigsTable />
