@@ -1,0 +1,83 @@
+.staff-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+.staff-card {
+  background: linear-gradient(135deg, #f7fafc 0%, #e3e6eb 100%);
+  border: 2px solid #f3f4f6;
+  border-radius: 18px;
+  box-shadow: 0 6px 32px 0 #0002, 0 1.5px 8px 0 #6661;
+  width: 240px;
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.18s cubic-bezier(.4,2,.6,1), box-shadow 0.2s cubic-bezier(.4,2,.6,1), border-color 0.2s;
+  padding: 32px 20px 20px 20px;
+  position: relative;
+  margin-bottom: 12px;
+  cursor: default;
+}
+.staff-card:hover {
+  transform: translateY(-10px) scale(1.035);
+  box-shadow: 0 16px 48px 0 #0ff4, 0 2px 16px 0 #00f2;
+  border-color: #d72638;
+  z-index: 1;
+}
+.staff-avatar {
+  border-radius: 50%;
+  box-shadow: 0 2px 12px #0002;
+  margin-bottom: 14px;
+  margin-top: -54px;
+  border: 3px solid #fff;
+  background: #fff;
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+.staff-name {
+  font-size: 1.27rem;
+  font-weight: 700;
+  margin-top: 0.2em;
+  margin-bottom: 0.13em;
+  color: #111;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+.staff-title {
+  color: #D72638;
+  font-weight: 600;
+  margin-bottom: 0.38em;
+  font-size: 1.05rem;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+.staff-info {
+  font-size: 1rem;
+  color: #222;
+  text-align: center;
+  line-height: 1.6;
+  margin-bottom: 0.2em;
+}
+.staff-email {
+  font-size: 0.97rem;
+  color: #004080;
+  text-align: center;
+  word-break: break-all;
+  margin-bottom: 0.2em;
+}
+.section-label {
+  font-size: 1.14rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 1.2em 0 0.2em 0;
+  color: #a72929;
+  text-align: left;
+  margin-left: 8px;
+}

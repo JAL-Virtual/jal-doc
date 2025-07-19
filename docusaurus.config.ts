@@ -26,7 +26,10 @@ const config: Config = {
           sidebarPath: require.resolve('./sidebars.ts'),
           },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: [
+            require.resolve('./src/css/custom.css'),
+            require.resolve('./src/css/staff-team.css'),
+          ],
         },
       } satisfies Preset.Options,
     ],
