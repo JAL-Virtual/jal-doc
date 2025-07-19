@@ -21,7 +21,7 @@ sidebar_position: 1
 
 <div className="staff-grid">
   <div className="staff-card">
-    <img src="/img/manager1.jpg" alt="Vice President" className="staff-avatar"/>
+    <img src="/img/manager1.png" alt="Vice President" className="staff-avatar"/>
     <div className="staff-name">Mike</div>
     <div className="staff-title">Vice President</div>
     <div className="staff-info"><b>JAL ID:</b> 0002</div>
