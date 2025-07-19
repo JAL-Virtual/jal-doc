@@ -1,0 +1,160 @@
+/* src/css/asr.css */
+
+/* Background: a soft white/gray with a faint pattern effect */
+.asr-bg-jal {
+  background: linear-gradient(135deg, #fff 70%, #f7f8fa 100%);
+  color: #232323;
+  min-height: 100vh;
+  padding: 48px 0;
+  font-family: "Noto Sans JP", "Inter", Arial, sans-serif;
+}
+
+/* Title */
+.asr-title-jal {
+  color: #d72638;
+  font-weight: 900;
+  font-size: 2.6rem;
+  margin-bottom: 30px;
+  letter-spacing: 1.5px;
+  text-shadow: 0 3px 12px #d7263811;
+  text-align: center;
+}
+
+/* The form container with a glassy look */
+.asr-form-jal {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 28px;
+  background: rgba(255,255,255,0.96);
+  border-radius: 26px;
+  padding: 40px 34px 32px 34px;
+  box-shadow: 0 10px 40px 0 #d7263835, 0 1.5px 8px 0 #3332;
+  border: 1.5px solid #eee;
+  backdrop-filter: blur(3.5px);
+  position: relative;
+}
+
+/* Flex row for form fields */
+.asr-flex-row-jal {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.asr-label-jal {
+  flex: 1;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: #a81d2b;
+  margin-bottom: 0.22em;
+  font-size: 1.07rem;
+}
+
+.asr-label-jal.flex2 { flex: 2; }
+.asr-label-jal.flex1 { flex: 1; }
+.asr-label-jal.flex0-60 { flex: 0 0 62px; }
+.asr-label-jal.flex0-100 { flex: 0 0 106px; }
+
+.asr-input-jal,
+.asr-select-jal,
+.asr-textarea-jal {
+  background: rgba(255,255,255,0.83);
+  border: 1.7px solid #e7e5e5;
+  color: #1a1a1a;
+  border-radius: 9px;
+  padding: 12px 14px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  width: 100%;
+  font-size: 16.2px;
+  outline: none;
+  font-weight: 500;
+  transition: border 0.2s, box-shadow 0.18s;
+  box-shadow: 0 1px 6px 0 #d7263811;
+}
+
+.asr-input-jal:focus,
+.asr-select-jal:focus,
+.asr-textarea-jal:focus {
+  border-color: #d72638;
+  box-shadow: 0 2px 12px #d7263830;
+  background: #fff;
+}
+
+.asr-select-jal {
+  appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='red' viewBox='0 0 140 140' width='18' height='18'><polygon points='70,110 110,50 30,50'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 0.85em top 56%;
+  background-size: 1.25em auto;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* Inputs and dropdown hover effect */
+.asr-input-jal:hover,
+.asr-select-jal:hover,
+.asr-textarea-jal:hover {
+  border-color: #f25b6a;
+}
+
+/* Section divider for clarity */
+.asr-form-jal label:not(:first-child) {
+  margin-top: 8px;
+}
+
+.asr-textarea-jal {
+  min-height: 86px;
+  resize: vertical;
+  font-size: 1rem;
+}
+
+/* Button: animated and more modern */
+.asr-button-jal {
+  background: linear-gradient(90deg, #d72638 60%, #ba2336 100%);
+  color: #fff;
+  border: 0;
+  padding: 15px 56px;
+  border-radius: 11px;
+  font-weight: 800;
+  font-size: 20px;
+  margin-top: 24px;
+  cursor: pointer;
+  transition: background 0.18s, opacity 0.2s, transform 0.13s;
+  box-shadow: 0 4px 18px #d7263825, 0 1.5px 4px #d7263821;
+  letter-spacing: 0.04em;
+  outline: none;
+}
+
+.asr-button-jal:hover:not(:disabled),
+.asr-button-jal:focus:not(:disabled) {
+  background: linear-gradient(90deg, #b30e25 40%, #d72638 100%);
+  transform: translateY(-2px) scale(1.035);
+  box-shadow: 0 8px 32px #d7263845;
+}
+
+.asr-button-jal:disabled {
+  opacity: 0.62;
+  cursor: not-allowed;
+  background: #e88995;
+}
+
+.asr-success-jal {
+  color: #19a13d;
+  font-weight: 700;
+  margin-left: 24px;
+  font-size: 1.18rem;
+  letter-spacing: 0.03em;
+  vertical-align: middle;
+}
+
+/* Responsive for mobile/tablet */
+@media (max-width: 900px) {
+  .asr-form-jal { padding: 20px 7vw; }
+}
+@media (max-width: 700px) {
+  .asr-form-jal { padding: 12px 3vw; }
+  .asr-title-jal { font-size: 1.4rem; }
+  .asr-flex-row-jal { flex-direction: column; gap: 8px; }
+}

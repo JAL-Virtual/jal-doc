@@ -29,6 +29,7 @@ const config: Config = {
           customCss: [
             require.resolve('./src/css/custom.css'),
             require.resolve('./src/css/staff-team.css'),
+            require.resolve('./src/css/asr.css'),
           ],
         },
       } satisfies Preset.Options,
