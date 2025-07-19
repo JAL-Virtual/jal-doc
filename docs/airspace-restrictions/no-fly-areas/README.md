@@ -5,6 +5,6 @@ sidebar_label: no-fly-areas
 sidebar_position: 1
 ---
 
-# no-fly-areas
+# No-Fly Areas
 
-*(Under construction)*
+Under constructions
