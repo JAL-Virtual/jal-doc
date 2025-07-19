@@ -95,7 +95,3 @@ sidebar_position: 1
 </div>
 
 ---
-
-<div style={{ textAlign: "center", marginTop: "2em" }}>
-  <i style={{ color: "#111" }}>Want to join the staff? <a href="#">Apply here!</a></i>
-</div>
