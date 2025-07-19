@@ -35,7 +35,7 @@ sidebar_position: 1
     <div className="staff-email"><b>Email:</b> pete@jalvirtual.com</div>
   </div>
   <div className="staff-card">
-    <img src="/img/manager3.jpg" alt="Director of Membership" className="staff-avatar"/>
+    <img src="/img/manager3.png" alt="Director of Membership" className="staff-avatar"/>
     <div className="staff-name">Taylor</div>
     <div className="staff-title">Technology and Infrastructure</div>
     <div className="staff-info"><b>JAL ID:</b> 0004</div>
