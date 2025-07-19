@@ -21,6 +21,8 @@
     "@mdi/js": "^7.4.47",
     "@mdi/react": "^1.6.1",
     "@mdx-js/react": "^3.0.0",
+    "@turf/centroid": "^7.2.0",
+    "@turf/point-on-feature": "^7.2.0",
     "clsx": "^2.0.0",
     "framer-motion": "^12.23.6",
     "mapbox-gl": "^3.13.0",

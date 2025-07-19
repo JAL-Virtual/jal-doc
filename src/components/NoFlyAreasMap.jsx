@@ -6,7 +6,7 @@ import pointOnFeature from "@turf/point-on-feature";
 const MAPBOX_TOKEN = "pk.eyJ1IjoiYnVubnlwaWxvdHMiLCJhIjoiY21kOXZ5anloMDNtNzJqcjJ3cWpyazN2MiJ9.bwmDOkazEb_OP7Dv3J1xXw";
 
 const restrictedICAOs = [ "OLBB", "OJAC", "ORBB", "OIIX", "OSTT", "ZKKP" ];
-const excludedICAOs = [ "UCFM", "UAAA", "UACN", "UCFO", "UTDD", "UTTR", "UTSD", "UBBA", "UTAA", "UTAT", "UAII", "UTTR", "UATI", "UTAK", "UBBA", "UTAV", "UGGG", "UDDD", "UBAA" ];
+const excludedICAOs = [ "UCFM", "UAAA", "UACN", "UCFO", "UTDD", "UTTR", "UTSD", "UBBA", "UTAA", "UTAT", "UAII", "UTTR", "UATI", "UTAK", "UBBA", "UTAV", "UGGG", "UDDD", "UBAA", "UBAA-S"];
 
 function isRestricted(icao) {
   if (!icao) return false;
@@ -23,7 +23,7 @@ export default function NoFlyAreasMap() {
     longitude: 45,
     zoom: 3.6,
     width: "100%",
-    height: "40vh", // horizontal rectangle!
+    height: "80vh",
   });
   const [error, setError] = useState(null);
 
@@ -51,7 +51,6 @@ export default function NoFlyAreasMap() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          height: "40vh",
         }}
       >
         Loading FIR boundaries...
@@ -59,7 +58,7 @@ export default function NoFlyAreasMap() {
     );
 
   return (
-    <div style={{ width: "100%", height: "40vh", position: "relative" }}>
+    <div style={{ width: "100%", minHeight: 500, position: "relative" }}>
       <ReactMapGL
         {...viewport}
         mapStyle="mapbox://styles/mapbox/dark-v11"

@@ -7,4 +7,10 @@ sidebar_position: 1
 
 # No-Fly Areas
 
-Under constructions
+## Current No-Fly List
+
+---
+
+import NoFlyAreasMap from '@site/src/components/NoFlyAreasMap.jsx'
+
+<NoFlyAreasMap />
