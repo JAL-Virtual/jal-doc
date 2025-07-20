@@ -1,79 +1,123 @@
 import React from "react";
-import { MdLanguage, MdRecordVoiceOver, MdPeople, MdThumbUpAlt } from "react-icons/md";
+import {
+  MdSpeed,
+  MdReplay,
+  MdReportProblem,
+  MdInfo,
+} from "react-icons/md";
 
-export default function CommunicationStandards() {
+export default function SimulationSettings() {
   return (
     <div>
+      {/* Info Banner */}
       <div
         style={{
-          background: "linear-gradient(90deg, #27245a 60%, #245a80 100%)",
-          borderRadius: "14px",
-          padding: "28px 20px 20px 20px",
-          margin: "24px 0 32px 0",
-          boxShadow: "0 4px 32px #0003",
+          display: "flex",
+          alignItems: "center",
+          gap: 15,
+          background: "linear-gradient(90deg, #45a8e5 60%, #76e5e5 100%)",
+          borderRadius: "11px",
+          padding: "18px 18px 15px 18px",
+          margin: "18px 0 34px 0",
           color: "#fff",
-          border: "1px solid #36498a",
+          border: "1px solid #6dc7f7",
+          boxShadow: "0 2px 18px #0001",
         }}
       >
-        <div style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: 13 }}>
-          <MdLanguage size={28} color="#b3e2ff" />
-          <span style={{ fontSize: 26, fontWeight: 700, letterSpacing: 1.1, color: "#d1eaff" }}>
-            Communication Standards
+        <MdSpeed size={32} color="#fff" />
+        <div>
+          <div style={{ fontWeight: 700, fontSize: 18, marginBottom: 4 }}>
+            Simulation Settings
+          </div>
+          <div>
+            All flights must be conducted at <b style={{ color: "#fff68d" }}>1x simulation speed</b>.
+          </div>
+        </div>
+      </div>
+
+      {/* Exception Card */}
+      <div
+        style={{
+          background: "linear-gradient(90deg, #23294a 60%, #275177 100%)",
+          borderRadius: 12,
+          padding: "22px 22px 15px 22px",
+          marginBottom: 24,
+          color: "#e6f7fa",
+          border: "1px solid #356fa7",
+        }}
+      >
+        <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 8 }}>
+          <MdReplay size={23} color="#fff1c1" />
+          <span style={{ fontWeight: 700, fontSize: 17, color: "#ffef8f" }}>
+            Exception: Crash Recovery
           </span>
         </div>
-        <ul style={{ margin: 0, padding: 0, listStyle: "none", fontSize: "1.07em" }}>
-          <li style={{ margin: "15px 0", display: "flex", alignItems: "center" }}>
-            <MdLanguage size={21} color="#aad6fd" style={{ marginRight: 10 }} />
-            <span>
-              <b style={{ color: "#7de2ff" }}>English</b> is the official language of Japan Airlines Virtual.
-              <span style={{
-                background: "linear-gradient(90deg, #fee3cf 30%, #b3e5fc 100%)",
-                WebkitBackgroundClip: "text",
-                WebkitTextFillColor: "transparent",
-                fontWeight: 500,
-                marginLeft: 5,
-              }}>
-                Japanese
-              </span> is accepted as a secondary language.
-            </span>
-          </li>
-          <li style={{ margin: "15px 0", display: "flex", alignItems: "center" }}>
-            <MdRecordVoiceOver size={21} color="#fbdc74" style={{ marginRight: 10 }} />
-            <span style={{ whiteSpace: "nowrap", width: "100%" }}>
-              During group flights or voice chats involving members of different nationalities,
-              <span style={{
-                fontWeight: 700,
-                color: "#ffd500",
-                margin: "0 4px"
-              }}>
-                English must be used
-              </span>
-              to ensure clear communication.
-            </span>
-          </li>
-          <li style={{ margin: "15px 0", display: "flex", alignItems: "center" }}>
-            <MdThumbUpAlt size={21} color="#abffb1" style={{ marginRight: 10 }} />
-            Constructive criticism is welcome when delivered
-            <span style={{
-              color: "#5affc0",
-              fontWeight: 600,
-              marginLeft: 4
-            }}>respectfully and professionally</span>.
-          </li>
-          <li style={{ margin: "15px 0", display: "flex", alignItems: "center" }}>
-            <MdPeople size={21} color="#c7a0fa" style={{ marginRight: 10 }} />
-            All members must maintain
-            <span style={{
-              background: "linear-gradient(90deg,#ffe3fa 0%, #aefff6 100%)",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-              fontWeight: 700,
-              marginLeft: 4
-            }}>
-              courteous, inclusive, and professional behavior
-            </span> at all times.
-          </li>
-        </ul>
+        <div style={{ fontSize: 15, marginBottom: 12 }}>
+          <b style={{ color: "#91ecfc" }}>Following a game or WASM crash,</b> you may reload from a saved state and use increased simulation rate <b>only</b> to return to the original position/time.
+        </div>
+      </div>
+
+      {/* ASR Requirement */}
+      <div
+        style={{
+          background: "linear-gradient(90deg, #fffbb0 0%, #f3ffc5 100%)",
+          borderRadius: "11px",
+          padding: "15px 20px 11px 20px",
+          marginBottom: 28,
+          color: "#37343a",
+          border: "1px solid #e7e3ae",
+        }}
+      >
+        <div style={{ display: "flex", alignItems: "center", gap: 11, marginBottom: 5 }}>
+          <MdReportProblem size={21} color="#f0bc3c" />
+          <span style={{ fontWeight: 700, fontSize: 16, color: "#8e7900" }}>
+            Air Safety Report (ASR) Requirement
+          </span>
+        </div>
+        <div style={{ marginLeft: 4, fontSize: 15.2 }}>
+          You <b>must submit an Air Safety Report (ASR)</b> with <b>verifiable proof</b> in any case of crash recovery or fast-forwarding to the original position.
+        </div>
+      </div>
+
+      {/* FAQ */}
+      <div
+        style={{
+          background: "linear-gradient(90deg, #294068 60%, #42a3e3 100%)",
+          borderRadius: 11,
+          padding: "20px 19px 10px 19px",
+          marginBottom: 18,
+          color: "#e2f7ff",
+          border: "1px solid #6dc7f7",
+        }}
+      >
+        <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 7 }}>
+          <MdInfo size={22} color="#b9e4ff" />
+          <span style={{ fontWeight: 700, fontSize: 16.5, color: "#c2eaff" }}>
+            FAQ & Key Notes
+          </span>
+        </div>
+        <details style={{ marginBottom: 10 }}>
+          <summary style={{ cursor: "pointer", fontWeight: 700, fontSize: 15, color: "#fff" }}>
+            Can I use time acceleration after a crash?
+          </summary>
+          <div style={{ marginTop: 5, marginLeft: 9, color: "#d9f5ff", fontSize: 14.4 }}>
+            Only to return to your original location/time following a <b>documented</b> sim crash.
+          </div>
+        </details>
+        <details>
+          <summary style={{ cursor: "pointer", fontWeight: 700, fontSize: 15, color: "#fff" }}>
+            What proof is needed for the ASR?
+          </summary>
+          <div style={{ marginTop: 5, marginLeft: 9, color: "#d9f5ff", fontSize: 14.4 }}>
+            A screenshot or log showing the crash and the restored position/time, or a brief explanation. The staff must be able to verify the legitimacy of the event.
+          </div>
+        </details>
+      </div>
+
+      <div style={{ color: "#88ccfc", fontSize: 15.2, margin: "7px 0 7px 3px" }}>
+        <i>
+          Have questions? Ask staff <b>before</b> using fast-forward after a crash.
+        </i>
       </div>
     </div>
   );
