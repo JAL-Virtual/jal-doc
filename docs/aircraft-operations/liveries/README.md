@@ -5,6 +5,6 @@ sidebar_label: liveries
 sidebar_position: 1
 ---
 
-# liveries
+import Liveries from '@site/src/components/Liveries';
 
-*(Under construction)*
+<Liveries />
