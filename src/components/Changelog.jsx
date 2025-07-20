@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const changelogData = [
   {
-    date: "29-07-2025",
+    date: "20-07-2025",
     version: "v0.0.1",
     sections: [
       {
