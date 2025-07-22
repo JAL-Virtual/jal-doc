@@ -51,8 +51,19 @@ const changelogData = [
       },
     ],
   },
-  // Add more changelog entries if needed
-];
+  {
+    date: "23-07-2025",
+    version: "v0.0.2",
+    sections: [
+      {
+        title: "INSTALLATIONS",
+        items: [
+          { label: "ACARS", type: "added" },
+        ],
+      },
+    ],
+  }
+]; // Added the missing closing bracket for the array
 
 const typeColors = {
   added: "#1cc47a",
